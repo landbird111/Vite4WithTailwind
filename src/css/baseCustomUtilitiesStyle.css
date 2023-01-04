@@ -1,0 +1,5 @@
+@import 'tailwindcss/utilities';
+
+/* 自定義需要的共用語法 */
+@layer utilities {
+}

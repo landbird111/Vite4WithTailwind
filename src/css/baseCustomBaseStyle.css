@@ -1,0 +1,32 @@
+/* @tailwind base; */
+@import 'tailwindcss/base';
+
+/* 自定義的全域共用語法 */
+@layer base {
+    :root {
+        /* 定義CSS的各式預設變數 */
+        font-family: theme(fontFamily.sans);
+        font-size: theme(fontSize.sm);
+
+        /* 白天模式 / 夜間模式 的配色方案 */
+        color-scheme: light dark;
+
+        /* 字型是否合成粗體或斜體字型 */
+        font-synthesis: none;
+
+        /* 以下是實驗中的css功能, 很吃瀏覽器 */
+        text-rendering: optimizeLegibility;
+        @apply antialiased;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    html {
+        color: theme(colors.black);
+        background: theme(colors.white);
+    }
+
+    q:before,
+    q:after {
+        @apply content-[""];
+    }    
+}

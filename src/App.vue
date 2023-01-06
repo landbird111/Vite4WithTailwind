@@ -6,18 +6,18 @@
       </router-link>
     </div>
     <nav
-      class="sm:mx-auto flex w-full justify-between sm:w-1/3 font-bold text-lg [&>div>a]:bg-orange-100 [&>div>a]:px-4 [&>div>a]:py-2 [&>div>a]:rounded-lg">
+      class="sm:mx-auto flex w-full justify-between sm:w-1/3 font-bold text-lg [&>div>a]:bg-purple-100 [&>div>a]:px-4 [&>div>a]:py-2 [&>div>a]:rounded-lg">
       <div>
         <router-link :to="{ name: 'Home' }">HOME</router-link>
       </div>
-      <!-- <div>
-        <router-link :to="{ name: 'HtmlHomeIndex' }">HTML</router-link>
+      <div>
+        <router-link :to="{ name: 'UIHomeIndex' }">UI</router-link>
       </div>
       <div>
         <router-link :to="{ name: 'VueHomeIndex' }">VUE</router-link>
-      </div> -->
+      </div> 
       <div>
-        <select v-model="localeKey" @change="ChangeDisplayLang">
+        <select v-model="localeKey" @change="ChangeDisplayLang" class="border border-gray-300">
           <option v-for="{ LocaleName, LocaleValue, IsDisabled } in SupportLocales" :value="LocaleValue"
             :disabled="IsDisabled">
             {{ LocaleName }}

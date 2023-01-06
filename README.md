@@ -30,8 +30,7 @@
    
    - <code>npm i -D naive-ui</code>
      - main core
-   - <code>npm i -D vfonts</code>
-     - UI fonts
+   - 
    - <code>npm i -D @vicons/utils</code>
      - component ui
    - [07akioni/xicons](https://github.com/07akioni/xicons#installation)

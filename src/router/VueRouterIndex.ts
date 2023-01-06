@@ -10,14 +10,20 @@ const routes: Array<RouteRecordRaw> = [
                 //Vue的Index頁面
                 path: '',
                 name: 'VueHomeIndex',
-                component: () => import(`../components/VueModules/VueComponents/VueHomeIndex.vue`),
+                component: () =>
+                    import(
+                        `../components/VueModules/VueComponents/VueHomeIndex.vue`
+                    ),
             },
-    //         {
-    //             //Vue的WebAPI頁面
-    //             path: 'RandomAPI',
-    //             name: 'VueRandomAPI',
-    //             component: () => import(`../components/VueModules/VueComponents/RandomAPI/Index.vue`),
-    //         }
+            {
+                //Vue的WebAPI頁面
+                path: 'RandomAPI',
+                name: 'VueRandomAPI',
+                component: () =>
+                    import(
+                        `../components/VueModules/VueComponents/RandomAPI/Index.vue`
+                    ),
+            },
         ],
     },
 ]

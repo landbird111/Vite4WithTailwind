@@ -17,7 +17,7 @@
       </div>
       <div>
         <router-link :to="{ name: 'VueHomeIndex' }">VUE</router-link>
-      </div> 
+      </div>
       <div>
         <select v-model="localeKey" @change="ChangeDisplayLang" class="border border-gray-300">
           <option v-for="{ LocaleName, LocaleValue, IsDisabled } in SupportLocales" :value="LocaleValue"
@@ -38,7 +38,7 @@
 import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'
 import { SupportLocales } from './plugins/i18n'
-import {FlightSharp} from '@vicons/material'
+import { FlightSharp } from '@vicons/material'
 import { Icon } from '@vicons/utils'
 
 const { locale } = useI18n()

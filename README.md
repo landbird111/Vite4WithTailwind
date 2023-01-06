@@ -26,7 +26,18 @@
    - npm install axios
      - To get or post from backend service
 
-3. tools
+3. tools Naive UI
+   
+   - <code>npm i -D naive-ui</code>
+     - main core
+   - <code>npm i -D vfonts</code>
+     - UI fonts
+   - <code>npm i -D @vicons/utils</code>
+     - component ui
+   - [07akioni/xicons](https://github.com/07akioni/xicons#installation)
+     - select icon source
+
+4. tools
    
    - <code>npm i lodash-es</code> (optional)
      

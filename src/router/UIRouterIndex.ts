@@ -2,7 +2,7 @@ import { RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
     {
-        path: '/Html',
+        path: '/UI',
         name: 'UIHome',
         component: () => import(`../components/UIModules/UIIndex.vue`),
         children: [

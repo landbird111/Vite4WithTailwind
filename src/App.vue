@@ -2,7 +2,9 @@
   <div class="flex h-16 w-full border border-b-stone-300 items-center mx-auto text-blue-700">
     <div class="ml-4">
       <router-link :to="{ name: 'Home' }">
-        Logo
+        <Icon size="36" tag="div" class="text-neutral-500 border-2 border-emerald-300 rounded-full">
+          <FlightSharp />
+        </Icon>
       </router-link>
     </div>
     <nav
@@ -36,6 +38,8 @@
 import { useI18n } from 'vue-i18n'
 import { ref } from 'vue'
 import { SupportLocales } from './plugins/i18n'
+import {FlightSharp} from '@vicons/material'
+import { Icon } from '@vicons/utils'
 
 const { locale } = useI18n()
 const localeKey = ref(locale.value)

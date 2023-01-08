@@ -1,9 +1,13 @@
 import path from 'path'
 import ghpages from 'gh-pages'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 const options = {
     branch: 'gh-pages',
-    repo: 'https://github.com/landbird111/Vite4WithTailwind.git'
+    repo: 'https://github.com/landbird111/Vite4WithTailwind.git',
 }
 
 const callback = (err) => {

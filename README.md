@@ -1,3 +1,29 @@
+## Practice writing a demo website
+
+1. web environment
+   
+   - vite 4 with rollup
+   
+   - vue 3 with type-script (using Composition API)
+   
+   - vue router v4
+   
+   - tailwind css for ui
+   
+   - pinia for state management
+   
+   - Naive for UI components
+   
+   - xicons for icon
+   
+   - axios for call api
+   
+   - vue-i18n for multi-language (using typescript interface)
+   
+   - lodash-es for helper
+
+2- [Demo Site](https://landbird111.github.io/Vite4WithTailwind/)
+
 ## Document the development environment
 
 1. vite and vue
@@ -26,7 +52,7 @@
    - npm install axios
      - To get or post from backend service
 
-3. tools Naive UI
+3. [Naive UI](https://www.naiveui.com/zh-CN/os-theme/docs/introduction)
    
    - <code>npm i -D naive-ui</code>
      - main core

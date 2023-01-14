@@ -12,4 +12,8 @@
 import rounterLinkDatas from './UIComponents/UILinkDatas';
 //左側的連結列
 import ContentNav from '../ContentNav/ContentNav.vue';
+// 設定Title
+import { useTitle } from '@vueuse/core';
+
+useTitle('UI');
 </script>

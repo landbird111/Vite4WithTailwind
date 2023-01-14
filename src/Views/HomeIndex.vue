@@ -7,3 +7,9 @@
         </div>
     </div>
 </template>
+<script lang="ts" setup>
+// 設定Title
+import { useTitle } from '@vueuse/core';
+
+useTitle('Vite 4 and Vue 3');
+</script>

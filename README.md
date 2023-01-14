@@ -134,3 +134,9 @@
      - <code>npm i @vueuse/core</code>
      
      - a collection of utility functions based on [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html)
+   
+   - [Components | VueUse](https://vueuse.org/guide/components.html)
+     
+     - <code>npm i @vueuse/core @vueuse/components</code>
+     
+     - providing renderless component versions of composable functions

@@ -11,7 +11,7 @@
             Mouse Position => {{ ReactiveX }} : {{ ReactiveY }}
         </div>
 
-        <HeaderSub>VueUse Mouse Point</HeaderSub>
+        <HeaderSub>VueUse Mouse Point(debounce)</HeaderSub>
         <div class="mt-8 max-w-lg mx-auto">
             Mouse Position => {{ VueUseX }} : {{ VueUseY }}
         </div>
@@ -23,7 +23,7 @@ import HeaderMaster from '../../../Commons/HeaderMaster.vue'
 import HeaderSub from '../../../Commons/HeaderSub.vue'
 import { useNormalMousePoint } from './NormalMousePoint'
 import { useReactiveMousePoint } from './ReactiveMousePoint'
-import { useMouse } from '@vueuse/core'
+import { useMouse, debounceFilter } from '@vueuse/core'
 
 // 一般寫法
 const { x: NormalX, y: NormalY } = useNormalMousePoint()
@@ -32,6 +32,8 @@ const { x: NormalX, y: NormalY } = useNormalMousePoint()
 const { x: ReactiveX, y: ReactiveY } = useReactiveMousePoint()
 
 // vueUse工具的寫法
-const { x: VueUseX, y: VueUseY } = useMouse()
+const { x: VueUseX, y: VueUseY } = useMouse({
+    eventFilter: debounceFilter(250)
+})
 
 </script>

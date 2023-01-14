@@ -14,6 +14,8 @@
    
    - Naive for UI components
    
+   - VueUse for add-ons support
+   
    - xicons for icon
    
    - axios for call api
@@ -126,3 +128,9 @@
      - <code>npm i vue-i18n@latest -S</code>
      
      - front-end multi-language
+   
+   - [VueUse](https://vueuse.org/guide/)
+     
+     - <code>npm i @vueuse/core</code>
+     
+     - a collection of utility functions based on [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html)

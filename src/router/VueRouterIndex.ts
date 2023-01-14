@@ -24,6 +24,15 @@ const routes: Array<RouteRecordRaw> = [
                         `../components/VueModules/VueComponents/RandomAPI/Index.vue`
                     ),
             },
+            {
+                //Vue的Mouse Point頁面
+                path: 'MouseMoveCapture',
+                name: 'VueMouseMoveCapture',
+                component: () =>
+                    import(
+                        `../components/VueModules/VueComponents/MouseMoveCapture/Index.vue`
+                    ),
+            },
         ],
     },
 ]

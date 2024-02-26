@@ -1,5 +1,5 @@
 import path from 'path'
-import ghpages from 'gh-pages'
+import * as gitHubPages from 'gh-pages'
 import { fileURLToPath } from 'url'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -21,4 +21,4 @@ const callback = (err) => {
 /**
  * This task pushes to the `master` branch of the configured `repo`.
  */
-ghpages.publish(path.join(__dirname, '../dist'), options, callback)
+gitHubPages.publish(path.join(__dirname, '../dist'), options, callback)

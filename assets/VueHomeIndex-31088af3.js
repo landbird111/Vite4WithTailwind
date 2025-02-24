@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vueexport-helper-c27b6911.js";import{t as n}from"./index-ce672f9f.js";const r={};function o(e,a){return n(e.$t("IndexPath.VueIndexPage.MainContent"))}const _=t(r,[["render",o]]);export{_ as default};

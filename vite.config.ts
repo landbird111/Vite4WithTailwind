@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import resolve from '@rollup/plugin-node-resolve'
 
 // eslint-disable-next-line no-control-regex
 const INVALID_CHAR_REGEX = /[\x00-\x1F\x7F<>*#"{}|^[\]`;?:&=+$,]/g
@@ -17,7 +16,6 @@ export default defineConfig({
             reactivityTransform: true,
         }),
         vueJsx(),
-        resolve(),
     ],
     build: {
         rollupOptions: {

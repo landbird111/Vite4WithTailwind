@@ -21,7 +21,7 @@ const routes: Array<RouteRecordRaw> = [
                 name: 'VueRandomAPI',
                 component: () =>
                     import(
-                        `../components/VueModules/VueComponents/RandomAPI/Index.vue`
+                        `../components/VueModules/VueComponents/RandomApi/Index.vue`
                     ),
             },
             {

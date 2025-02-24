@@ -9,6 +9,12 @@ const en: ILocale = {
         "NotFoundPage": {
             "MainSubject": "404 Not Found",
             "ClickToBack": "Click here back to Index"
+        },
+        "VueIndexPage": {
+            "MainContent": "Vue Index Page"
+        },
+        "UIIndexPage": {
+            "MainContent": "UI Index Page"
         }
     }
 }

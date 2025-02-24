@@ -1,3 +1,3 @@
 <template>
-    Vue Home Index Content
+    {{ $t('IndexPath.VueIndexPage.MainContent') }}
 </template>

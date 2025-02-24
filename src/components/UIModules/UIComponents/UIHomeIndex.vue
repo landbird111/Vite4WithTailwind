@@ -1,3 +1,3 @@
 <template>
-    UI Home Index Content
+    {{ $t('IndexPath.UIIndexPage.MainContent') }}
 </template>

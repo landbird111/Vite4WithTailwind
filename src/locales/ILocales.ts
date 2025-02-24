@@ -15,10 +15,20 @@ export interface ILocale {
 interface IndexPath {
     HomeIndexPage: HomeIndexPage
     NotFoundPage: NotFoundPage
+    VueIndexPage: VueIndexPage
+    UIIndexPage: UIIndexPage
 }
 
 interface HomeIndexPage {
     MainSubject: string
+    MainContent: string
+}
+
+interface VueIndexPage {
+    MainContent: string
+}
+
+interface UIIndexPage {
     MainContent: string
 }
 

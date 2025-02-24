@@ -1,10 +1,10 @@
 <template>
     <div class="mx-auto">
-        <HeaderMaster>Basic Random API</HeaderMaster>
-        <HeaderSub>Random API</HeaderSub>
+        <HeaderMaster>{{
+            $t('IndexPath.RandomAPIPage.HeaderMaster')
+        }}</HeaderMaster>
+        <HeaderSub>{{ $t('IndexPath.RandomAPIPage.HeaderSub') }}</HeaderSub>
         <div class="mt-8 max-w-lg mx-auto">
-            
-            
             <RandomApi />
         </div>
     </div>

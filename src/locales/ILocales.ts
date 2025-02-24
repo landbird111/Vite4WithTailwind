@@ -17,6 +17,8 @@ interface IndexPath {
     NotFoundPage: NotFoundPage
     VueIndexPage: VueIndexPage
     UIIndexPage: UIIndexPage
+    RandomAPIPage: RandomAPIPage
+    MouseMoveCapturePage: MouseMoveCapturePage
 }
 
 interface HomeIndexPage {
@@ -35,4 +37,17 @@ interface UIIndexPage {
 interface NotFoundPage {
     MainSubject: string
     ClickToBack: string
+}
+
+interface RandomAPIPage {
+    HeaderMaster: string
+    HeaderSub: string
+}
+
+interface MouseMoveCapturePage {
+    HeaderMaster: string
+    StandardMouseMove: string
+    ReactMouseMove: string
+    VueMouseMove: string
+    MousePosition: string
 }

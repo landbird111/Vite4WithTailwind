@@ -16,6 +16,17 @@ const tw: ILocale = {
         UIIndexPage: {
             MainContent: 'UI 首頁',
         },
+        RandomAPIPage: {
+            HeaderMaster: '隨機 API',
+            HeaderSub: '取得隨機資料',
+        },
+        MouseMoveCapturePage: {
+            HeaderMaster: '滑鼠移動捕捉',
+            StandardMouseMove: '標準滑鼠移動',
+            ReactMouseMove: 'React 滑鼠移動',
+            VueMouseMove: 'Vue 滑鼠移動(debounce)',
+            MousePosition: '滑鼠位置',
+        },
     },
 }
 

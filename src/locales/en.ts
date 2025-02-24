@@ -15,7 +15,18 @@ const en: ILocale = {
         },
         "UIIndexPage": {
             "MainContent": "UI Index Page"
-        }
+        },
+        "RandomAPIPage": {
+            "HeaderMaster": "Random API",
+            "HeaderSub": "Get Random Data"
+        },
+        "MouseMoveCapturePage": {
+            "HeaderMaster": "Mouse Move Capture",
+            "StandardMouseMove": "Standard Mouse Move",
+            "ReactMouseMove": "React Mouse Move",
+            "VueMouseMove": "Vue Mouse Move(debounce)",
+            "MousePosition": "Mouse Position"
+        },
     }
 }
 

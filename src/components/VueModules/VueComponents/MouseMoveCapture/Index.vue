@@ -1,19 +1,19 @@
 <template>
     <div class="mx-auto">
-        <HeaderMaster>Mouse Point</HeaderMaster>
-        <HeaderSub>Standard Mouse Point</HeaderSub>
+        <HeaderMaster>{{ $t('IndexPath.MouseMoveCapturePage.HeaderMaster') }}</HeaderMaster>
+        <HeaderSub>{{ $t('IndexPath.MouseMoveCapturePage.StandardMouseMove') }}</HeaderSub>
         <div class="mt-8 max-w-lg mx-auto">
-            Mouse Position => {{ NormalX }} : {{ NormalY }}
+            {{ $t('IndexPath.MouseMoveCapturePage.MousePosition') }} => {{ NormalX }} : {{ NormalY }}
         </div>
 
-        <HeaderSub>Reactive Mouse Point</HeaderSub>
+        <HeaderSub>{{ $t('IndexPath.MouseMoveCapturePage.ReactMouseMove') }}</HeaderSub>
         <div class="mt-8 max-w-lg mx-auto">
-            Mouse Position => {{ ReactiveX }} : {{ ReactiveY }}
+            {{ $t('IndexPath.MouseMoveCapturePage.MousePosition') }} => {{ ReactiveX }} : {{ ReactiveY }}
         </div>
 
-        <HeaderSub>VueUse Mouse Point(debounce)</HeaderSub>
+        <HeaderSub>{{ $t('IndexPath.MouseMoveCapturePage.VueMouseMove') }}</HeaderSub>
         <div class="mt-8 max-w-lg mx-auto">
-            Mouse Position => {{ VueUseX }} : {{ VueUseY }}
+            {{ $t('IndexPath.MouseMoveCapturePage.MousePosition') }} => {{ VueUseX }} : {{ VueUseY }}
         </div>
     </div>
 </template>

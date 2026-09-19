@@ -34,7 +34,7 @@
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-vue": "^9.8.0",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^6.3.0",
     "lodash-es": "^4.17.21",
     "naive-ui": "^2.34.3",
     "pinia": "^2.0.28",
